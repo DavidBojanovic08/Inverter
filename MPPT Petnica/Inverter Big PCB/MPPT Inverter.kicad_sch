@@ -1250,7 +1250,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x11_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x12_Counter_Clockwise"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1270,8 +1270,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x11_Counter_Clockwise"
-				(at 1.27 -15.24 0)
+			(property "Value" "Conn_02x12_Counter_Clockwise"
+				(at 1.27 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1302,7 +1302,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x11, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x12, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1335,10 +1335,10 @@
 					)
 				)
 			)
-			(symbol "Conn_02x11_Counter_Clockwise_1_1"
+			(symbol "Conn_02x12_Counter_Clockwise_1_1"
 				(rectangle
 					(start -1.27 13.97)
-					(end 3.81 -13.97)
+					(end 3.81 -16.51)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1469,6 +1469,17 @@
 					)
 				)
 				(rectangle
+					(start -1.27 -15.113)
+					(end 0 -15.367)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
 					(start 3.81 12.827)
 					(end 2.54 12.573)
 					(stroke
@@ -1581,6 +1592,17 @@
 				(rectangle
 					(start 3.81 -12.573)
 					(end 2.54 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -15.113)
+					(end 2.54 -15.367)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1788,7 +1810,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -12.7 180)
+					(at -5.08 -15.24 0)
 					(length 3.81)
 					(name "Pin_12"
 						(effects
@@ -1806,7 +1828,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -10.16 180)
+					(at 7.62 -15.24 180)
 					(length 3.81)
 					(name "Pin_13"
 						(effects
@@ -1824,7 +1846,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -7.62 180)
+					(at 7.62 -12.7 180)
 					(length 3.81)
 					(name "Pin_14"
 						(effects
@@ -1842,7 +1864,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at 7.62 -10.16 180)
 					(length 3.81)
 					(name "Pin_15"
 						(effects
@@ -1860,7 +1882,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 -7.62 180)
 					(length 3.81)
 					(name "Pin_16"
 						(effects
@@ -1878,7 +1900,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_17"
 						(effects
@@ -1896,7 +1918,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_18"
 						(effects
@@ -1914,7 +1936,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_19"
 						(effects
@@ -1932,7 +1954,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 7.62 180)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_20"
 						(effects
@@ -1950,7 +1972,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 10.16 180)
+					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_21"
 						(effects
@@ -1968,7 +1990,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 12.7 180)
+					(at 7.62 7.62 180)
 					(length 3.81)
 					(name "Pin_22"
 						(effects
@@ -1978,6 +2000,42 @@
 						)
 					)
 					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 180)
+					(length 3.81)
+					(name "Pin_23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 12.7 180)
+					(length 3.81)
+					(name "Pin_24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6028,6 +6086,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 116.84) (xy 111.76 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9929f215-e0c6-4042-a74e-d6429db10146")
+	)
+	(wire
+		(pts
 			(xy 124.46 93.98) (xy 134.62 93.98)
 		)
 		(stroke
@@ -6085,6 +6153,16 @@
 			(type default)
 		)
 		(uuid "ba849816-685b-4df1-9a43-461a6c8d12a4")
+	)
+	(wire
+		(pts
+			(xy 124.46 114.3) (xy 130.81 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bafa5931-d033-40d9-9d91-c8623031db17")
 	)
 	(wire
 		(pts
@@ -7661,6 +7739,30 @@
 		(uuid "d418bd9f-2f8f-4ac2-82b7-74b852f3f715")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 49.6896 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ACdetect"
+		(shape input)
+		(at 111.76 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db12a521-3a3d-479a-8320-64d3dbc7df3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.55 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10073,6 +10175,84 @@
 			(project "MPPT Inverter"
 				(path "/bc2b48e6-19a7-4c9e-9542-927996cc7035"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4104cc72-59b6-40e3-a0c5-840a1a32dfe2")
+		(property "Reference" "#PWR042"
+			(at 130.81 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53b1fa20-a2dc-4114-b559-0deb70e882b4")
+		)
+		(instances
+			(project "MPPT Inverter"
+				(path "/bc2b48e6-19a7-4c9e-9542-927996cc7035"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -14859,6 +15039,152 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x12_Counter_Clockwise")
+		(at 116.84 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d27af1c2-434e-4d5d-9026-26b8992b5ed5")
+		(property "Reference" "J1"
+			(at 118.11 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCU"
+			(at 118.11 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x12_P2.54mm_Vertical"
+			(at 116.84 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x12, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 116.84 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "a2f5c988-6d52-4189-981e-4e167f35f7db")
+		)
+		(pin "10"
+			(uuid "3ce4b052-2260-4e86-9849-683e8e33be9a")
+		)
+		(pin "15"
+			(uuid "0c2eff36-24f0-47c2-88f6-6fddd8c8c5a6")
+		)
+		(pin "21"
+			(uuid "861eec04-c5ef-4bf8-9bf0-7d64fe083b9a")
+		)
+		(pin "2"
+			(uuid "18242b6c-a427-43ae-a341-a0a6b8549ab6")
+		)
+		(pin "11"
+			(uuid "dabce7a4-f69d-4e8f-89dd-27f1e5840c73")
+		)
+		(pin "5"
+			(uuid "78233d48-68a5-4235-bcdf-af0085238293")
+		)
+		(pin "7"
+			(uuid "bf4f17a1-6fb4-40ee-9436-50485dcdcd24")
+		)
+		(pin "18"
+			(uuid "feef276b-2a2c-4ad9-bc22-338b82a8ffee")
+		)
+		(pin "17"
+			(uuid "02170e7d-1129-41ed-8981-273114ba5650")
+		)
+		(pin "19"
+			(uuid "a377e66e-179a-4843-90eb-e4ea76fbb25b")
+		)
+		(pin "1"
+			(uuid "5574f806-6e81-4f52-8593-794e79a45e9d")
+		)
+		(pin "22"
+			(uuid "1beaba80-f5c2-491b-b649-720fe91df072")
+		)
+		(pin "8"
+			(uuid "3fb084fa-fe67-431a-84b1-77602e0e055c")
+		)
+		(pin "16"
+			(uuid "f8049b79-700a-4a41-b268-be1519f1333a")
+		)
+		(pin "4"
+			(uuid "61b2c730-6dce-4461-9b93-062776e69ab3")
+		)
+		(pin "23"
+			(uuid "3ed38080-7d96-4777-a4e7-4018f268e2ba")
+		)
+		(pin "13"
+			(uuid "8c369966-db57-4a04-bf41-46a12250f24e")
+		)
+		(pin "3"
+			(uuid "2121c48e-ec1d-4bcc-9151-a294009ef70b")
+		)
+		(pin "6"
+			(uuid "8b8f192b-d8fc-44b6-b17c-e3654344a7ab")
+		)
+		(pin "12"
+			(uuid "8dcae4ef-1822-4004-a459-00b5dd2df835")
+		)
+		(pin "14"
+			(uuid "7e97c0a6-32c2-4a2e-8ab0-364354dc90dd")
+		)
+		(pin "20"
+			(uuid "88287c38-9e2a-472b-8bc6-dcb299c8c946")
+		)
+		(pin "24"
+			(uuid "f63f46aa-6a21-49c3-9e94-77974438dbc2")
+		)
+		(instances
+			(project "MPPT Inverter"
+				(path "/bc2b48e6-19a7-4c9e-9542-927996cc7035"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 50.8 45.72 90)
 		(unit 1)
@@ -16476,146 +16802,6 @@
 			(project "MPPT Inverter"
 				(path "/bc2b48e6-19a7-4c9e-9542-927996cc7035"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x11_Counter_Clockwise")
-		(at 116.84 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb231922-dead-4891-b5a3-5084d9b2cd79")
-		(property "Reference" "J6"
-			(at 118.11 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCU"
-			(at 118.11 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x11_P2.54mm_Vertical"
-			(at 116.84 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x11, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 116.84 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "13"
-			(uuid "0ca9ec47-2f75-4045-b9c5-84f868495d41")
-		)
-		(pin "1"
-			(uuid "31faa386-b102-42e4-854a-c48cfeb7acb8")
-		)
-		(pin "3"
-			(uuid "18828baf-90ef-41de-be88-66a4fca2fb38")
-		)
-		(pin "7"
-			(uuid "1a24b945-dcd3-488a-a857-123415c92912")
-		)
-		(pin "4"
-			(uuid "942d34dc-cfa9-490f-a9ec-85bfa8e1be03")
-		)
-		(pin "6"
-			(uuid "33513c89-8a53-4167-9c57-84a9fcb138a3")
-		)
-		(pin "9"
-			(uuid "134d1918-cbe5-4cf2-833e-677713ff69c2")
-		)
-		(pin "2"
-			(uuid "18712144-5193-4d1b-baa7-00f2934a8bf2")
-		)
-		(pin "10"
-			(uuid "5a3e3678-5894-4a4d-ae7d-cd902ff36a08")
-		)
-		(pin "16"
-			(uuid "474e3c00-f5f3-46df-819b-4277ea990b78")
-		)
-		(pin "5"
-			(uuid "0f7ad410-db5d-48da-a63e-9f12459b221e")
-		)
-		(pin "18"
-			(uuid "e8b831e3-c2bc-444f-8dd1-b2090b27bbb2")
-		)
-		(pin "22"
-			(uuid "8a9c8173-22a6-4b0c-97cf-b8c3893cf3c4")
-		)
-		(pin "15"
-			(uuid "83213d02-eea2-478d-a023-24db3dfc7f79")
-		)
-		(pin "17"
-			(uuid "f59ba754-063c-4206-b9f1-7e563078e001")
-		)
-		(pin "14"
-			(uuid "37181e6c-8a66-448b-b651-8a7e56c00f44")
-		)
-		(pin "12"
-			(uuid "a08d828b-381b-416b-937c-744f4da81eb5")
-		)
-		(pin "8"
-			(uuid "24615ef9-69c4-4c3c-a534-b2ee2fbe81b9")
-		)
-		(pin "20"
-			(uuid "a891a4c4-4595-4eb9-8e36-af57fa230c40")
-		)
-		(pin "11"
-			(uuid "dcea013c-2b73-435e-bdee-9bfc1dea7f11")
-		)
-		(pin "21"
-			(uuid "4c61d018-ea52-4c49-b0a3-2d7bed13f3e7")
-		)
-		(pin "19"
-			(uuid "ff47f4fc-1fd2-4fda-99aa-1f0ac6372128")
-		)
-		(instances
-			(project "MPPT Inverter"
-				(path "/bc2b48e6-19a7-4c9e-9542-927996cc7035"
-					(reference "J6")
 					(unit 1)
 				)
 			)
